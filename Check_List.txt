@@ -1,1 +1,31 @@
-CLEAN AND REPEAT
+git init 
+
+git add .
+git add one.html two.html 
+
+git checkout -m "message"
+
+git status
+
+git log 
+
+git log --oneline 
+
+git remote    #two know remote name 
+
+git remote add origin git_url  #two add remote git url to local <origin> is just a name we can place any name 
+
+git push origin master  #push contents from local to online <origin> remote repo address </origin> <master> is the main branch of remote git</master>
+
+git checkout <log_name> filename.txt   #to take back previous version file from git to local
+
+git diff <current_log> <actual_log>  #shows diff of current and previous commits
+
+git checkout <log_name> .   #this will checkout completely to previous batch which means "head is detached from master branch of remote 
+
+#now we cant perform any operations on remote git as head is deatched from master
+
+so to re attach HEAD to master branch
+
+git 
+
