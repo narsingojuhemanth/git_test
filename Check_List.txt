@@ -29,3 +29,11 @@ so to re attach HEAD to master branch
 
 git 
 
+#if git had how head like below 
+git log --oneline
+#like this :-> 7d363b7 (HEAD -> master, origin/master, origin/HEAD)
+
+
+$git remote set-head  origin -d 
+7d363b7 (HEAD -> master, origin/master) 
+
